@@ -8,8 +8,8 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true
     },
-    title: 'Flower Clock',
-    icon: path.join(__dirname, ) // optional
+    title: 'Flower Clock ⏰',
+  //  icon: path.join(__dirname, ) // optional
   })
 
   win.loadFile('index.html')

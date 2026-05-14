@@ -11,8 +11,7 @@
     "appId": "com.vipro.clock",
     "productName": "ViProClock",
     "win": {
-      "target": "nsis",
-      "icon": "icon.ico"
+      "target": "nsis"
     },
     "nsis": {
       "oneClick": true,
@@ -21,6 +20,6 @@
   },
   "devDependencies": {
     "electron": "^30.0.0",
-    "electron-builder": "^24.0.0"
+    "electron-builder": "^24.13.3"
   }
 }
